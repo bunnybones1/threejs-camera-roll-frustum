@@ -1,0 +1,34 @@
+{
+  "name": "threejs-camera-roll-frustum",
+  "version": "1.0.0",
+  "description": "A method to augment a camera with a roll property which doesn't affect the camera matrix, but is done instead in the projection matrix.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tomasz Dysinski",
+    "email": "oz@bunnybones.com",
+    "url": "https://github.com/bunnybones1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "loadandrunscripts": "^1.0.0",
+    "threejs-managed-view": "^2.3.0"
+  },
+  "scripts": {
+    "test": "beefy test.js --live --open"
+  },
+  "keywords": [
+    "threejs",
+    "camera",
+    "roll",
+    "matrix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bunnybones1/threejs-camera-roll-frustum.git"
+  },
+  "homepage": "https://github.com/bunnybones1/threejs-camera-roll-frustum",
+  "bugs": {
+    "url": "https://github.com/bunnybones1/threejs-camera-roll-frustum/issues"
+  }
+}
